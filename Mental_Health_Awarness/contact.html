@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Mental Health Awareness</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/script.js" defer></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="importance.html">Why It Matters</a></li>
+      <li><a href="stories.html">Stories</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p class="cheer-quote">🌟 “You are stronger than you think, and braver than you feel.” 🌟</p>
+
+      <div class="emergency-box">
+        <h3>Emergency Contacts (Philippines)</h3>
+        <ul>
+          <li><strong>National Center for Mental Health Crisis Hotline:</strong> 1553</li>
+          <li><strong>Hopeline PH:</strong> (02) 8804-4673 / 0917-558-4673</li>
+          <li><strong>Philippine Red Cross Hotline:</strong> 143</li>
+        </ul>
+        <p>If you or someone you know is in immediate danger, please call these hotlines right away.</p>
+      </div>
+
+      <form class="contact-form" action="#" method="post">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <p>Email: <a href="mailto:info@mensmentalhealth.org">info@mensmentalhealth.org</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Men’s Mental Health Awareness Initiative</p>
+  </footer>
+
+  <!-- Learn More Floating Circle -->
+  <div id="learn-more">
+    <div id="learn-label">Learn More</div>
+    <div id="learn-circle">ℹ️</div>
+  </div>
+
+  <!-- Cry Buddy Widget -->
+  <div id="cry-buddy">
+    <div id="cry-label">Cry Buddy</div>
+    <div id="cry-circle">💬</div>
+  </div>
+
+  <!-- Chat Box -->
+  <div id="chat-box">
+    <div id="chat-messages"></div>
+    <input type="text" id="chat-input" placeholder="Type your feelings..." />
+    <button id="chat-send">Send</button>
+  </div>
+</body>
+</html>

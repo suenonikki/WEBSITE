@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz - Mental Health Awareness</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/script.js" defer></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="importance.html">Why It Matters</a></li>
+      <li><a href="stories.html">Stories</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="quiz.html" class="active">Quiz</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <div class="container">
+      <h2>Interactive Quiz</h2>
+      <p class="cheer-quote">🌟 “Awareness is the first step toward healing.” 🌟</p>
+
+      <form class="quiz-form">
+        <ol>
+          <li><label>What percentage of men report struggling with mental health but do not seek help?</label><br>
+            <input type="radio" name="q1"> 20%<br>
+            <input type="radio" name="q1"> 40%<br>
+            <input type="radio" name="q1"> 60%<br>
+          </li>
+          <li><label>Which of these is a healthy coping strategy?</label><br>
+            <input type="radio" name="q2"> Bottling up feelings<br>
+            <input type="radio" name="q2"> Talking to a friend<br>
+            <input type="radio" name="q2"> Ignoring problems<br>
+          </li>
+          <li><label>Exercise can help improve mental health by:</label><br>
+            <input type="radio" name="q3"> Increasing stress<br>
+            <input type="radio" name="q3"> Boosting mood<br>
+            <input type="radio" name="q3"> Causing isolation<br>
+          </li>
+          <li><label>Which hormone is often called the “stress hormone”?</label><br>
+            <input type="radio" name="q4"> Cortisol<br>
+            <input type="radio" name="q4"> Serotonin<br>
+            <input type="radio" name="q4"> Dopamine<br>
+          </li>
+          <li><label>Mindfulness practices include:</label><br>
+            <input type="radio" name="q5"> Meditation<br>
+            <input type="radio" name="q5"> Suppressing thoughts<br>
+            <input type="radio" name="q5"> Avoiding emotions<br>
+          </li>
+          <li><label>Sleep deprivation can lead to:</label><br>
+            <input type="radio" name="q6"> Improved focus<br>
+            <input type="radio" name="q6"> Anxiety<br>
+            <input type="radio" name="q6"> Happiness<br>
+          </li>
+          <li><label>Which vitamin is linked to mood regulation?</label><br>
+            <input type="radio" name="q7"> Vitamin D<br>
+            <input type="radio" name="q7"> Vitamin C<br>
+            <input type="radio" name="q7"> Vitamin B12<br>
+          </li>
+          <li><label>Which of these is a sign of depression?</label><br>
+            <input type="radio" name="q8"> Persistent sadness<br>
+            <input type="radio" name="q8"> Increased energy<br>
+            <input type="radio" name="q8"> Constant joy<br>
+          </li>
+          <li><label>Which professional can provide therapy?</label><br>
+            <input type="radio" name="q9"> Psychologist<br>
+            <input type="radio" name="q9"> Chef<br>
+            <input type="radio" name="q9"> Engineer<br>
+          </li>
+          <li><label>Which activity helps reduce stress?</label><br>
+            <input type="radio" name="q10"> Deep breathing<br>
+            <input type="radio" name="q10"> Overworking<br>
+            <input type="radio" name="q10"> Ignoring feelings<br>
+          </li>
+        </ol>
+
+        <button type="submit" class="btn">Submit Answers</button>
+      </form>
+
+      <div class="suggestion-box">
+        <h3>Suggestions & Tips</h3>
+        <p>Share your ideas on how to support others in their mental health journey.</p>
+        <form>
+          <label for="suggestion">Your Suggestions</label>
+          <textarea id="suggestion" name="suggestion" rows="6" placeholder="Write your tips here..." required></textarea>
+          <button type="submit" class="btn">Send Suggestion</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Men’s Mental Health Awareness Initiative</p>
+  </footer>
+
+  <!-- Learn More Floating Circle -->
+  <div id="learn-more">
+    <div id="learn-label">Learn More</div>
+    <div id="learn-circle">ℹ️</div>
+  </div>
+
+  <!-- Cry Buddy Widget -->
+  <div id="cry-buddy">
+    <div id="cry-label">Cry Buddy</div>
+    <div id="cry-circle">💬</div>
+  </div>
+
+  <!-- Chat Box -->
+  <div id="chat-box">
+    <div id="chat-messages"></div>
+    <input type="text" id="chat-input" placeholder="Type your feelings..." />
+    <button id="chat-send">Send</button>
+  </div>
+</body>
+</html>
